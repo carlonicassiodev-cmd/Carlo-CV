@@ -262,7 +262,7 @@ function Hero(){
           <span className="block-label">Di cosa mi occupo & Interessi</span>
           <p>
             Mi concentro sull'intersezione tra <strong>tecnologia (sviluppo software, sicurezza informatica, sistemi industriali IT/OT) e strategia aziendale</strong>. 
-            Nutro un forte interesse per i percorsi <strong>MBA</strong>: dedico tempo alla <strong>lettura di testi di business administration</strong> e ad approfondimenti costanti sull'integrazione tra processi produttivi, infrastrutture digitali e management, senza mai trascurare la pratica tecnica tra CTF e progetti di sviluppo.
+            Nutro un forte interesse per i percorsi <strong>MBA</strong>: dedico tempo alla <strong>lettura di testi di business administration</strong> e ad approfondimenti costanti sull'integrazione tra processi produttivi, infrastrutture digitali e management, senza mai trascurare la pratica tecnica attraverso laboratori e progetti di sviluppo personali.
           </p>
           <div className="tag-row">
             {["IT/OT Integration","Letture MBA","Project Management","Operations","Sicurezza informatica","Software dev"].map(t => (
@@ -354,10 +354,10 @@ function ProjectCard({ p }){
 function Progetti(){
   const ref = useReveal();
   const projects = [
-    { title:"Controlli automatici (PID controllers) in JAVA — automazione", desc:"Simulazione software di sistemi di controllo automatico in ambito OT.", stack:["Java","IntelliJ","Controlli Automatici"], href:"#" },
-    { title:"Allenamenti e Sfide CTF — HTB", desc:"Toolkit e competenze di cybersecurity sviluppate durante sfide Capture The Flag.", stack:["Sicurezza IT/OT","HTB"], href:"#" },
-    { title:"Progetti ESP32 — robotica e OT", desc:"Progetto personale di robotica, sensoristica e automazione hardware.", stack:["MicroPython","Elettronica","Embedded"], href:"#" },
-    { title:"Analisi predittiva attraverso misurazioni in laboratorio — ingegneria", desc:"Progetto legato all'esame di misure, svolto in laboratorio con focus sull'analisi dei dati.", stack:["Data Analysis","Misure","Cloud"], href:"#" },
+    { title:"Controlli automatici (PID controllers) in JAVA — automazione", desc:"Simulazione software di sistemi di controllo automatico in ambito OT.", stack:["Java","IntelliJ","Controlli Automatici","JUNIT"], href:"#" },
+    { title:"Sviluppo Web con Vue e React", desc:"Sviluppo e mantenimento siti web CV.", stack:["React","Vue","Html"], href:"#" },
+    { title:"Progetti Arduino,ESP32 — robotica e OT", desc:"Progetto personale di robotica, sensoristica e automazione hardware.", stack:["MicroPython","Elettronica","Embedded"], href:"#" },
+    { title:"Analisi tecniche attraverso misurazioni in laboratorio — ingegneria", desc:"Progetto legato all'esame di misure, svolto in laboratorio con focus sull'analisi dei dati.", stack:["Data Analysis","Misure","Oscilloscopio","multimetro","segnali e trasformate","MATLAB"], href:"#" },
   ];
   return (
     <section id="progetti" ref={ref}>
